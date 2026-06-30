@@ -1,6 +1,3 @@
-> [!CAUTION]
-Ce travail s'effectue dans [l'environnement Github](https://perso.esiee.fr/~courivad/courses/utils/misc-01-github-environment.html)
-
 # Nombres premiers
 
 Un [nombre premier](https://en.wikipedia.org/wiki/Prime_number) est un entier naturel qui admet exactement deux diviseurs distincts entiers et positifs. Ces deux diviseurs sont 1 et le nombre considéré. L'objectif est d'écrire du code qui permet de vérifier si un nombre est premier ou pas.
@@ -32,9 +29,9 @@ Le fichier ``main.py`` contient :
 
 Le score de test ``ST`` obtenu est le pourcentage de tests réussis. Tant que certains tests échouent, répéter le cycle 1️⃣ 2️⃣ 3️⃣ 4️⃣
 
-5️⃣ Lorsque le score de test ``ST`` est satisfaisant, s'intéresser à la [qualité du code](https://perso.esiee.fr/~courivad/courses/utils/sources/python-23-codequality.html).
+5️⃣ Lorsque le score de test ``ST`` est satisfaisant, s'intéresser à la [qualité du code](https://docs.astral.sh/ruff/linter/).
 
-    $ pylint main.py
+    $ ruff check
 
 Si le score de qualité ``SQ`` n'est pas maximal, répéter l'étape 5️⃣ en tenant compte des messages dans le terminal
 
@@ -43,8 +40,5 @@ Si le score de qualité ``SQ`` n'est pas maximal, répéter l'étape 5️⃣ en 
     $ git add .
     $ git commit -m "un message explicatif"
     $ git push
-
-> [!CAUTION]
-En cas de soumissions multiples, seule la première est prise en compte.
 
 <!-- END INSERT -->
