@@ -25,7 +25,7 @@ Le fichier ``main.py`` contient :
 
 4️⃣ Lorsque les résultats obtenus à l'étape 3️⃣ sont satisfaisants, soumettre le code à une procédure de test plus robuste, les tests unitaires.
 
-    $ pytest .python
+    $ pytest
 
 Le score de test ``ST`` obtenu est le pourcentage de tests réussis. Tant que certains tests échouent, répéter le cycle 1️⃣ 2️⃣ 3️⃣ 4️⃣
 
@@ -38,7 +38,7 @@ Si le score de qualité ``SQ`` n'est pas maximal, répéter l'étape 5️⃣ en 
 6️⃣ Lorsque les scores ``ST`` et ``SQ`` sont satisfaisants, pusher le travail vers votre repo distant. Ce travail est susceptible d'être pris en compte dans l'évaluation de l'unité.
 
     $ git add .
-    $ git commit -m "un message explicatif"
+    $ git commit -m "primes"
     $ git push
 
 <!-- END INSERT -->
